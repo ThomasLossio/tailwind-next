@@ -138,11 +138,6 @@ export default function Home() {
                 Write a short introduction.
               </span>
             </label>
-            <FileInput.Root>
-              <FileInput.Trigger />
-              <FileInput.FileList />
-              <FileInput.Control multiple />
-            </FileInput.Root>
           </div>
 
           <div className="grid grid-cols-form gap-3 pt-5">
@@ -155,7 +150,11 @@ export default function Home() {
                 Share a few snippets of your work.
               </span>
             </label>
-            <div></div>
+            <FileInput.Root>
+              <FileInput.Trigger />
+              <FileInput.FileList />
+              <FileInput.Control multiple />
+            </FileInput.Root>
           </div>
 
           <div className="flex items-center justify-end gap-2 pt-5">
